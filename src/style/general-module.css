@@ -1,0 +1,57 @@
+.footer-icons {
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+margin-bottom: 5px;
+}
+
+.provabg{
+background-image: url('../img/provatras.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 'center';
+}
+
+.libro{
+background-image: url('../img/quadr.jpeg');
+background-position: 'center';
+}
+
+.card.slide-in {
+animation: slide-in 0.5s ease-out;
+}
+
+@keyframes slide-in {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(0);
+}
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.formbox{
+  text-align: center;
+  padding-top: 30px;
+  background-image: url("../img/cop.jpg"), linear-gradient(rgba(245, 242, 242, 0.5),rgba(202, 88, 159, 0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.cardm {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardm:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ico {
+  font-size: 24px; /* dimensione desiderata */
+}

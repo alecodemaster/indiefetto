@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fab937b7.css",
+    "main.js": "/static/js/main.8753bc92.js",
+    "static/js/787.dbb9f504.chunk.js": "/static/js/787.dbb9f504.chunk.js",
+    "static/media/Computer-screen-code-glitch-animation-gif-background-free.gif": "/static/media/Computer-screen-code-glitch-animation-gif-background-free.7db06fc99c6458d1f68c.gif",
+    "static/media/cop.jpg": "/static/media/cop.cb8a5b37eabd1904ea3c.jpg",
+    "static/media/javascript.jpg": "/static/media/javascript.580e84fccdeb3976db3c.jpg",
+    "static/media/colon.png": "/static/media/colon.6615abced18b6266009d.png",
+    "static/media/jquery.jpg": "/static/media/jquery.549047ec85b325d05565.jpg",
+    "static/media/html.jpg": "/static/media/html.ec52b5d2623fac0e65f5.jpg",
+    "static/media/css.jpg": "/static/media/css.9501784ca1f28eb67a33.jpg",
+    "static/media/giuseppedt.png": "/static/media/giuseppedt.528ff87d12e50606e7f0.png",
+    "static/media/costantinosanna.png": "/static/media/costantinosanna.92041a5d43e8bdbea816.png",
+    "static/media/quadr.jpeg": "/static/media/quadr.18adf314cf90e301d167.jpeg",
+    "static/media/feedback2.PNG": "/static/media/feedback2.710372d795469b1d0068.PNG",
+    "static/media/pink.jpg": "/static/media/pink.395083a9f8f7ff71fc48.jpg",
+    "static/media/vitamina.jpg": "/static/media/vitamina.b97d6d8c8c5b7b6fe67f.jpg",
+    "static/media/Alessia_Gaudioso.pdf": "/static/media/Alessia_Gaudioso.66a145a23f67be803124.pdf",
+    "static/media/alex3.jpg": "/static/media/alex3.5f1b6564a7d95b3b9f75.jpg",
+    "static/media/enter.jpg": "/static/media/enter.c94b3f8a0f8c83ea8d4c.jpg",
+    "static/media/magofanculo.gif": "/static/media/magofanculo.f2932cfd9722b41741be.gif",
+    "static/media/Indiefetto2.png": "/static/media/Indiefetto2.805944064f83b5a4275d.png",
+    "static/media/feedback1.PNG": "/static/media/feedback1.671a5494b666ba92074a.PNG",
+    "static/media/samor2.png": "/static/media/samor2.944185d593f0920ff6f0.png",
+    "index.html": "/index.html",
+    "static/media/submit-form.php": "/static/media/submit-form.4d445a56ddfe5222db87.php",
+    "main.fab937b7.css.map": "/static/css/main.fab937b7.css.map",
+    "main.8753bc92.js.map": "/static/js/main.8753bc92.js.map",
+    "787.dbb9f504.chunk.js.map": "/static/js/787.dbb9f504.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab937b7.css",
+    "static/js/main.8753bc92.js"
+  ]
+}

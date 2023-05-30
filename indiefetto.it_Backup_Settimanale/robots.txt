@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Allow: https://www.indiefetto.it
+Sitemap: https://www.indiefetto.it/sitemap.xml

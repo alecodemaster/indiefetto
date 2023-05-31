@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../img/lab.png";
-import laboratorio from '../img/labor.png'
+import laboratorio from "../img/labor.png";
 
 const CardLab = ({ title, subtitle, labLink, githubLink }) => {
   return (
@@ -29,10 +29,10 @@ const CardLab = ({ title, subtitle, labLink, githubLink }) => {
 
           <hr className="my-5" />
           <p className="mb-4">
-            Qui puoi trovare una vecchia versione del codice sorgente di questo sito. <br />
+            Qui puoi trovare una vecchia versione del codice sorgente di questo
+            sito. <br />
             Se sei appassionato di programmazione o semplicemente curioso di
-            vedere come è stato realizzato, ti invito a dare
-            un'occhiata.
+            vedere come è stato realizzato, ti invito a dare un'occhiata.
             <br />
             Se hai consigli sarei felice di sentirli. <br />
             Compila il{" "}
@@ -53,7 +53,11 @@ const CardLab = ({ title, subtitle, labLink, githubLink }) => {
             <i className="fi fi-brands-github"></i> GitHub
           </a>
 
-          <img className="rounded-lg cardm opacity-80 mt-5" src={laboratorio}></img>
+          <img
+            className="rounded-lg cardm opacity-80 mt-5"
+            src={laboratorio}
+            alt="Indiefetto Lab"
+          ></img>
         </div>
       </div>
     </div>

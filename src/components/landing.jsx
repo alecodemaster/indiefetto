@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Card from "./card";
 import About from "./about";
-import '../img/nuovologogrande.png'
+import "../img/nuovologogrande.png";
 
 const Landing = () => {
   // const images = [

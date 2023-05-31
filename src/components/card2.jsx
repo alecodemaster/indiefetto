@@ -1,5 +1,5 @@
-import React from 'react';
-import alex from '../alex.jpg'
+import React from "react";
+import alex from "../alex.jpg";
 
 const CardWithOverlay = () => {
   return (

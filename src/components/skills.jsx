@@ -19,7 +19,8 @@ const Skills = () => {
                 <i className="devicon-css3-plain"></i> CSS3
               </li>
               <li>
-            <i className="devicon-javascript-plain"></i> JavaScript</li>
+                <i className="devicon-javascript-plain"></i> JavaScript
+              </li>
               <li>
                 <i className="devicon-react-original"></i> React
               </li>
@@ -48,8 +49,8 @@ const Skills = () => {
                 <i className="devicon-github-original"></i> GitHub
               </li>
               <li>
-                
-            <i className="devicon-visualstudio-plain"></i> Visual Studio Code
+                <i className="devicon-visualstudio-plain"></i> Visual Studio
+                Code
               </li>
             </ul>
           </div>
@@ -58,11 +59,24 @@ const Skills = () => {
               Marketing e SEO
             </h3>
             <ul className="text-gray-500 space-y-1">
-              <li><i className= "fi fi-rr-key"></i> Keyword research</li>
-              <li> <i className= "fi fi-rr-attribution-pen"></i> Copywriting</li>
-              <li><i className= "fi fi-rr-feather"></i> Creazione di contenuti per blog e social media</li>
-              <li><i className= "fi fi-rr-search-alt"></i> Web analytics</li>
-              <li><i className= "fi fi-rr-globe"></i>  Ottimizzazione per la local SEO</li>
+              <li>
+                <i className="fi fi-rr-key"></i> Keyword research
+              </li>
+              <li>
+                {" "}
+                <i className="fi fi-rr-attribution-pen"></i> Copywriting
+              </li>
+              <li>
+                <i className="fi fi-rr-feather"></i> Creazione di contenuti per
+                blog e social media
+              </li>
+              <li>
+                <i className="fi fi-rr-search-alt"></i> Web analytics
+              </li>
+              <li>
+                <i className="fi fi-rr-globe"></i> Ottimizzazione per la local
+                SEO
+              </li>
             </ul>
           </div>
           <div className="bg-white p-8 rounded-lg cardm opacity-80">
@@ -70,10 +84,19 @@ const Skills = () => {
               Grafica e Design
             </h3>
             <ul className="text-gray-500 space-y-1">
-              <li><i className="devicon-canva-original"></i> Canva</li>
-              <li><i className= "fi fi-rr-film"></i>  Video editing - DaVinci Resolve</li>
-              <li><i className= "fi fi-rr-picture"></i> Photo editing - Photoshop</li>
-              <li><i className= "fi fi-rr-palette"></i> Pixel Art - Aseprite</li>
+              <li>
+                <i className="devicon-canva-original"></i> Canva
+              </li>
+              <li>
+                <i className="fi fi-rr-film"></i> Video editing - DaVinci
+                Resolve
+              </li>
+              <li>
+                <i className="fi fi-rr-picture"></i> Photo editing - Photoshop
+              </li>
+              <li>
+                <i className="fi fi-rr-palette"></i> Pixel Art - Aseprite
+              </li>
             </ul>
           </div>
         </div>

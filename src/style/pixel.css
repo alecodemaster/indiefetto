@@ -22,7 +22,7 @@
 .pixelbox{
     text-align: center;
     padding-top: 30px;
-    background-image: url(""), linear-gradient(rgba(245, 242, 242, 0.5),rgba(202, 88, 159, 0.5));
+    background: linear-gradient(rgba(245, 242, 242, 0.5),rgba(202, 88, 159, 0.5));
     background-size: cover;
     background-blend-mode: overlay;
 }

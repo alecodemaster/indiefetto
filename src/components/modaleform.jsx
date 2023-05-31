@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function Modal() {
   const [showModal, setShowModal] = useState(false);
@@ -7,11 +7,14 @@ function Modal() {
     e.preventDefault();
     // Invia il modulo
     document.getElementById("myForm").submit();
-  }
+  };
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <button onClick={() => setShowModal(true)} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <button
+        onClick={() => setShowModal(true)}
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
         Invia
       </button>
       {showModal ? (
@@ -21,10 +24,16 @@ function Modal() {
             <div className="bg-white rounded-lg p-4 shadow-lg">
               <p className="mb-4">Confermare l'invio del modulo?</p>
               <div className="flex justify-center">
-                <button onClick={() => setShowModal(false)} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mr-4">
+                <button
+                  onClick={() => setShowModal(false)}
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mr-4"
+                >
                   Annulla
                 </button>
-                <button onClick={handleSubmit} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                <button
+                  onClick={handleSubmit}
+                  className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                >
                   Conferma
                 </button>
               </div>

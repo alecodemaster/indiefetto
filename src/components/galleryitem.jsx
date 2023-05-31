@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ImageGalleryItem = ({ image, onImageClick }) => {
   const handleClick = () => {
@@ -7,7 +7,12 @@ const ImageGalleryItem = ({ image, onImageClick }) => {
 
   return (
     <div className="p-2">
-      <img src={image} alt="Gallery Item" className="w-full h-auto cursor-pointer" onClick={handleClick} />
+      <img
+        src={image}
+        alt="Gallery Item"
+        className="w-full h-auto cursor-pointer"
+        onClick={handleClick}
+      />
     </div>
   );
 };

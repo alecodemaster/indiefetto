@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import ImageGalleryItem from './galleryitem';
-import Modal from './modalimages';
+import React, { useState } from "react";
+import ImageGalleryItem from "./galleryitem";
+import Modal from "./modalimages";
 
 const ImageGallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,9 +16,15 @@ const ImageGallery = ({ images }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {images.map((image, index) => (
-        <ImageGalleryItem key={index} image={image} onImageClick={handleImageClick} />
+        <ImageGalleryItem
+          key={index}
+          image={image}
+          onImageClick={handleImageClick}
+        />
       ))}
-      {selectedImage && <Modal image={selectedImage} onCloseModal={handleCloseModal} />}
+      {selectedImage && (
+        <Modal image={selectedImage} onCloseModal={handleCloseModal} />
+      )}
     </div>
   );
 };

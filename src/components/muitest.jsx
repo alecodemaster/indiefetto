@@ -1,5 +1,15 @@
-import { Typography, Avatar, Card, CardContent, CardActions, IconButton } from "@mui/material";
-import { Share as ShareIcon, Favorite as FavoriteIcon } from "@mui/icons-material";
+import {
+  Typography,
+  Avatar,
+  Card,
+  CardContent,
+  CardActions,
+  IconButton,
+} from "@mui/material";
+import {
+  // Share as ShareIcon,
+  Favorite as FavoriteIcon,
+} from "@mui/icons-material";
 import { useState } from "react";
 import avatar from "../img/lightsf.png";
 import ShareButtons from "./share";
@@ -11,23 +21,27 @@ const Mui = () => {
     setIsFavorite(!isFavorite);
   };
 
-  const handleShareClick = async () => {
-    try {
-      if (navigator.share) {
-        await navigator.share({
-          title: "Titolo condivisione",
-          text: "Testo da condividere",
-          url: "https://www.example.com" // URL da condividere
-        });
-        console.log("Contenuto condiviso con successo!");
-      } else {
-        console.log("La condivisione non è supportata sul tuo dispositivo o browser.");
-      }
-    } catch (error) {
-      console.error("Si è verificato un errore durante la condivisione:", error);
-    }
-  };
-  
+  // const handleShareClick = async () => {
+  //   try {
+  //     if (navigator.share) {
+  //       await navigator.share({
+  //         title: "Titolo condivisione",
+  //         text: "Testo da condividere",
+  //         url: "https://www.example.com", // URL da condividere
+  //       });
+  //       console.log("Contenuto condiviso con successo!");
+  //     } else {
+  //       console.log(
+  //         "La condivisione non è supportata sul tuo dispositivo o browser."
+  //       );
+  //     }
+  //   } catch (error) {
+  //     console.error(
+  //       "Si è verificato un errore durante la condivisione:",
+  //       error
+  //     );
+  //   }
+  // };
 
   return (
     <div className="flex justify-center p-5 mb-5">
@@ -41,10 +55,18 @@ const Mui = () => {
           />
         </div>
         <CardContent>
-          <Typography variant="h5" component="h1" sx={{ textAlign: "center", fontWeight: "bold" }}>
+          <Typography
+            variant="h5"
+            component="h1"
+            sx={{ textAlign: "center", fontWeight: "bold" }}
+          >
             Alessia Gaudioso
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ textAlign: "center", mt: 2 }}>
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            sx={{ textAlign: "center", mt: 2 }}
+          >
             postmaster@indiefetto.it
           </Typography>
         </CardContent>

@@ -12,11 +12,6 @@ background-repeat: no-repeat;
 background-position: 'center';
 }
 
-.libro{
-background-image: url('../img/quadr.jpeg');
-background-position: 'center';
-}
-
 .card.slide-in {
 animation: slide-in 0.5s ease-out;
 }

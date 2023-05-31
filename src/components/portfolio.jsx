@@ -25,7 +25,6 @@ function Portfolio() {
         "Una coppia fantastica, due ragazzi coraggiosi che respirano arte e che per essa sono disposti a rischiare tutto.",
       technologies: ["ReactJS", "Tailwind CSS"],
       liveUrl: "https://enchantedteam.altervista.org/",
-
       // githubUrl: "https://github.com/example/project-2",
       feedback: Feedbackg,
     },
@@ -49,9 +48,7 @@ function Portfolio() {
         "Un giovane programmatore, durante l'ennesima giornata in ufficio, preda della quotidiana noia, provò a reindirizzare nell'interfaccia audio del suo sistema Linux un file di testo con il quale aveva giornalmente a che fare. Generò così un rumore sgradevole che ricordava quello di una vecchia stampante...",
       technologies: ["ReactJS", "Tailwind CSS"],
       liveUrl: "https://colostomia.altervista.org",
-
       // githubUrl: "https://github.com/example/project-2",
-      feedback: Feedbackg,
     },
     {
       id: 3,
@@ -68,7 +65,6 @@ function Portfolio() {
         "PHP",
       ],
       liveUrl: "https://www.giuseppedetommasi.it",
-
       // githubUrl: "https://github.com/example/project-2",
       feedback: Feedbackg,
     },
@@ -76,8 +72,11 @@ function Portfolio() {
 
   return (
     <div className="p-4 md:p-8 select-none">
+      {/* <DropdownMenu /> */}
       <CardPort />
+      <div id="skills">
       <Skills />
+      </div>
       <div className="mx-auto px-4 py-8 lg:flex">
         <Utility />
         <CardLab
@@ -132,15 +131,14 @@ function Portfolio() {
                 </div> */}
       </div>
 
-
       <Mui />
 
-      
       <button>
         <Link to="/pixel">
           <img
             className="mt-5 grayscale brightness-50 rounded-md shadow-md shadow-zinc-800 animate-bounce"
             src={enter}
+            alt="Project"
           />
         </Link>
       </button>

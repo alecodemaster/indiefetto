@@ -11,12 +11,10 @@ const HideableContent = ({ children }) => {
     setIsContentVisible(false);
   };
 
-
-
   return (
     <div>
-        <button onClick={hideContent}>Chiudi </button>
-        <button onClick={showContent}>| Apri</button>
+      <button onClick={hideContent}>Chiudi </button>
+      <button onClick={showContent}>| Apri</button>
       {isContentVisible && children}
     </div>
   );

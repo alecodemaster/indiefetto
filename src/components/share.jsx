@@ -1,17 +1,13 @@
-import Button from '@mui/material/Button';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-
+import Button from "@mui/material/Button";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function ShareButtons(props) {
-  const shareUrl = 'https://www.indiefetto.it';
-  const title = 'Alessia Gaudioso, scrittura urbana e sviluppo web';
-  const imageUrl = '../nuovologogrande.png';
+  const shareUrl = "https://www.indiefetto.it";
+  const title = "Alessia Gaudioso, scrittura urbana e sviluppo web";
 
-
-  return ( 
-    <div className='space-y-2 p-5'>
+  return (
+    <div className="space-y-2 p-5">
       <Button
         variant="outlined"
         color="primary"

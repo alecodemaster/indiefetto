@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import '../style/general-module.css';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "../style/general-module.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,10 +20,10 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [isOpen]);
 
@@ -53,13 +53,8 @@ const Navbar = () => {
         <div className="absolute top-24 right-0 w-full bg-white border shadow-md shadow-zinc-900 z-10 text-gray-500">
           <ul>
             <li className="border-b border-gray-300 shadow-sm shadow-zinc-700 hover:shadow-none">
-              <Link
-                to="/*"
-                onClick={closeDropdown}
-                className="block px-4 py-2"
-              >
-                
-						<i class= "fi fi-ss-house-tree"></i> Home
+              <Link to="/*" onClick={closeDropdown} className="block px-4 py-2">
+                <i class="fi fi-ss-house-tree"></i> Home
               </Link>
             </li>
             <li className="border-b border-gray-300 shadow-sm shadow-zinc-700 hover:shadow-none">
@@ -68,7 +63,7 @@ const Navbar = () => {
                 onClick={closeDropdown}
                 className="block px-4 py-2"
               >
-                <i class= "fi fi-ss-briefcase"></i> Portfolio
+                <i class="fi fi-ss-briefcase"></i> Portfolio
               </Link>
             </li>
             <li className="border-b border-gray-300 shadow-sm shadow-zinc-700 hover:shadow-none">
@@ -77,7 +72,7 @@ const Navbar = () => {
                 onClick={closeDropdown}
                 className="block px-4 py-2"
               >
-                <i class= "fi fi-ss-book-alt"></i> Il mio libro
+                <i class="fi fi-ss-book-alt"></i> Il mio libro
               </Link>
             </li>
             <li className="border-b border-gray-300 shadow-sm shadow-zinc-700 hover:shadow-none">
@@ -86,7 +81,7 @@ const Navbar = () => {
                 onClick={closeDropdown}
                 className="block px-4 py-2"
               >
-               <i class= "fi fi-ss-envelope"></i>  Contatti
+                <i class="fi fi-ss-envelope"></i> Contatti
               </Link>
             </li>
           </ul>
@@ -94,11 +89,12 @@ const Navbar = () => {
             <li>
               <a
                 href="https://evitolaforma.altervista.org"
-                target={'_blank'}
+                target={"_blank"}
+                rel="noreferrer"
                 onClick={closeDropdown}
                 className="block px-4 py-2 text-primarypink"
               >
-                <i class= "fi fi-ss-pen-nib"></i> Blog
+                <i class="fi fi-ss-pen-nib"></i> Blog
               </a>
             </li>
           </ul>

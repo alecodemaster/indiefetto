@@ -1,16 +1,15 @@
-import React from 'react';
-import { useState } from 'react';
-import logo from '../img/nuovologo.png';
-import { Link } from 'react-router-dom';
-import Navbar from './dropdown';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import logo from "../img/nuovologo.png";
+import { Link } from "react-router-dom";
+import Navbar from "./dropdown";
+import { Helmet } from "react-helmet";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <header className="bg-zinc-800 h-30 flex justify-between items-center px-4 sm:px-8 shadow-md shadow-pink-700 select-none">
